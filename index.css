@@ -1,0 +1,44 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.flex{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex > div{
+    background-color: bisque;
+    padding: 30px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+.flex >div:hover{
+    background-color: burlywood;
+}
+
+.grid{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 10;
+    grid-template-columns: 200px 200px 200px auto;
+    padding: 20px;
+}
+
+.grid > div{
+    background-color: darkorange;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.grid > div:hover{
+    background-color: blue;
+}
+a{
+    padding: 3px;
+    margin-left: 50%;
+}
